@@ -83,6 +83,7 @@ body {
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  font-size: 1.5rem;
 }
 #about-me p {
   width: 80%;
@@ -102,7 +103,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: #786b1f;
   border-radius: 0;
 }
 
@@ -245,6 +246,10 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
+.visually-hidden {
+  color: black;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
@@ -257,7 +262,7 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6,
+  #about-me h4,
   #about-me p {
     width: 100%;
   }
